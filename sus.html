@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css" media="all">
+            html{
+                font-family: Arial, Courier, Georgia;
+                background-color: #4f4f4f;
+            }
+            h1{
+                color: #a9a9a9;
+                text-align: center;
+            }
+            div{
+                background-color: #9a9a9a;
+                margin: auto;
+                user-select: none;
+                width: 100px;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 2rem;
+                color: #C1C1C3;
+            }
+            textarea{
+                font-family: Comic Sans MS;
+                font-size: 1.5rem;
+                color: #1a1a1a;
+                background-color: #a1a1a1;
+                margin: auto;
+                border-radius:5px;
+            }
+        </style>
+        <script type="text/javascript" charset="utf-8">
+            var a = 0;
+            function onclick() {
+                a++;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 id="h1">Hello World</h1>
+        <div onclick=onclick()>click</div>
+        <textarea name="text_area" id="txt" rows="8" cols="40" placeholder="tegzt"></textarea><br />
+        <a href="#h1" title="go back">[]</a>
+    </body>
+</html>
