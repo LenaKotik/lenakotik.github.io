@@ -4,9 +4,10 @@
     border-radius: 10cm;
     color:chocolate ;
 }
-label
+div
 {
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 button
 {
