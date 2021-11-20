@@ -1,0 +1,22 @@
+.input
+{
+    resize: false;
+    border-radius: 10cm;
+    color:chocolate ;
+}
+div 
+{
+    align-content: center;
+}
+button
+{
+    margin-top: 10px;
+}
+#red
+{
+    color: red;
+}
+#green
+{
+    color:green;
+}
